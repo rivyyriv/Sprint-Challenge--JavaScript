@@ -30,13 +30,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+    forEach reguires an array to plug objects or other data into. map creates an array for you.
+
 2. What is the difference between a function and a method?
+
+        a function is a segment of code the can be called 0r "activated" to change a peace of data known as a "argument"  Methods are essentially functions housed witin an objects.
 
 3. What is closure?
 
+        closure is the way js saves data. example a callback saves data on its outer scope "the parent function".
+
 4. Describe the four rules of the 'this' keyword.
 
+        window binding - where this calls on everything globally 
+        new binding - used with a constructer function to create new objects
+        implicit - refers to its parent object
+        explicit - used with the method "call"
+
 5. Why do we need super() in an extended class?
+
+        essentialy give the parent data to the child. 
 
 ## Project Set up
 
